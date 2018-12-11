@@ -7,7 +7,7 @@
     <parent>
         <artifactId>spring-pet-clinic-sample-app</artifactId>
         <groupId>HellSpawn287.spring-PetClinic-Sample-App</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>pet-clinic-data</artifactId>
@@ -17,7 +17,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
     </properties>
-
+    
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
