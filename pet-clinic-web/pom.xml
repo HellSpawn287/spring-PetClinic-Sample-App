@@ -5,7 +5,7 @@
     <parent>
         <artifactId>spring-pet-clinic-sample-app</artifactId>
         <groupId>HellSpawn287.spring-PetClinic-Sample-App</groupId>
-        <version>0.0.1</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>pet-clinic-web</artifactId>
@@ -14,7 +14,7 @@
         <dependency>
             <artifactId>pet-clinic-data</artifactId>
             <groupId>HellSpawn287.spring-PetClinic-Sample-App</groupId>
-            <version>0.0.1</version>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
