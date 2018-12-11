@@ -5,7 +5,7 @@
 
     <groupId>HellSpawn287.spring-PetClinic-Sample-App</groupId>
     <artifactId>spring-pet-clinic-sample-app</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
@@ -38,6 +38,14 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.1</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.shared</groupId>
+                        <artifactId>maven-invoker</artifactId>
+                        <version>2.2</version>
+                    </dependency>
+                </dependencies>
                 <configuration>
                     <goals>install</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>

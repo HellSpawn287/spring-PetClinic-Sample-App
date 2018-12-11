@@ -7,7 +7,7 @@
     <parent>
         <artifactId>spring-pet-clinic-sample-app</artifactId>
         <groupId>HellSpawn287.spring-PetClinic-Sample-App</groupId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>pet-clinic-data</artifactId>
