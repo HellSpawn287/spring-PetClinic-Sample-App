@@ -5,7 +5,7 @@
 
     <groupId>HellSpawn287.spring-PetClinic-Sample-App</groupId>
     <artifactId>spring-pet-clinic-sample-app</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <modules>
         <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
