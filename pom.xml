@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>HellSpawn287.spring-PetClinic-Sample-App</groupId>
     <artifactId>spring-pet-clinic-sample-app</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <modules>
         <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
@@ -58,7 +57,7 @@
         <connection>scm:git:http://github.com/HellSpawn287/spring-PetClinic-Sample-Ap.git</connection>
         <developerConnection>scm:git:https://github.com/HellSpawn287/spring-PetClinic-Sample-App.git</developerConnection>
         <url>http://github.com/HellSpawn287/spring-PetClinic-Sample-App</url>
-        <tag>HEAD</tag>
+        <tag>spring-pet-clinic-sample-app-0.0.2</tag>
     </scm>
 
     <repositories>
