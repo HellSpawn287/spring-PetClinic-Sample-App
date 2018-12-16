@@ -26,6 +26,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <project.scm.id>git</project.scm.id>
         <java.version>1.8</java.version>
     </properties>
 
@@ -56,6 +57,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/HellSpawn287/spring-PetClinic-Sample-App.git</developerConnection>
         <tag>HEAD</tag>
+        <url>https://github.com/HellSpawn287/spring-PetClinic-Sample-App</url>
     </scm>
 
     <repositories>
