@@ -54,6 +54,7 @@
         </plugins>
     </build>
     <scm>
+        <connection>scm:git:http://github.com/HellSpawn287/spring-PetClinic-Sample-Ap.git</connection>
         <developerConnection>scm:git:https://github.com/HellSpawn287/spring-PetClinic-Sample-App.git</developerConnection>
         <url>http://github.com/HellSpawn287/spring-PetClinic-Sample-App</url>
         <tag>HEAD</tag>
