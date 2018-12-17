@@ -1,6 +1,7 @@
 package hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.model;
 
-public class Person {
+public class Person extends BaseEntity
+{
     private String firstname;
     private String lastname;
 

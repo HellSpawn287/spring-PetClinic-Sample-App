@@ -1,6 +1,6 @@
 package hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.model;
 
-public class PetType {
+public class PetType extends BaseEntity {
 
     private String name;
 
