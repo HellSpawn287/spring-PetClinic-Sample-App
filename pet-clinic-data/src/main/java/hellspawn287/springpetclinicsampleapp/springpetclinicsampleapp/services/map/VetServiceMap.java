@@ -3,9 +3,11 @@ package hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.services.
 
 import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.model.Vet;
 import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
