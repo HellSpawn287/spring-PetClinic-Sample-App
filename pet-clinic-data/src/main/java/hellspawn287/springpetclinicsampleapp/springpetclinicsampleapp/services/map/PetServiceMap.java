@@ -2,11 +2,11 @@ package hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.services.
 
 
 import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.model.Pet;
-import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.services.CrudService;
+import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();
