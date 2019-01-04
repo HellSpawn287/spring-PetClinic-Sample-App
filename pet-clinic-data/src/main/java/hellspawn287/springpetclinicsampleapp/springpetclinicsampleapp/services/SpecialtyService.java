@@ -2,5 +2,5 @@ package hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.services;
 
 import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.model.Specialty;
 
-public interface SpecialtiesService extends CrudService<Specialty, Long> {
+public interface SpecialtyService extends CrudService<Specialty, Long> {
 }

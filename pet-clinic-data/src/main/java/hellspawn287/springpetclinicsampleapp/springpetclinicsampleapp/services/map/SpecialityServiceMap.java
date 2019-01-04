@@ -1,12 +1,12 @@
 package hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.services.map;
 
 import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.model.Specialty;
-import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.services.SpecialtiesService;
+import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.services.SpecialtyService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 @Service
-public class SpecialityServiceMap extends AbstractMapService<Specialty, Long> implements SpecialtiesService {
+public class SpecialityServiceMap extends AbstractMapService<Specialty, Long> implements SpecialtyService {
 
     @Override
     public Set<Specialty> findAll() {
