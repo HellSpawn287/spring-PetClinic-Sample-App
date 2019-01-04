@@ -1,6 +1,6 @@
 package hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.model;
 
-public class Speciality extends BaseEntity {
+public class Specialty extends BaseEntity {
 
     private String description;
 
