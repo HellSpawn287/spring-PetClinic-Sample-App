@@ -1,16 +1,15 @@
 package hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.services.map;
 
-
-import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.model.Pet;
-import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.services.PetService;
+import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.model.Specialty;
+import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.services.SpecialtyService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
 @Service
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
+public class SpecialityMapService extends AbstractMapService<Specialty, Long> implements SpecialtyService {
+
     @Override
-    public Set<Pet> findAll() {
+    public Set<Specialty> findAll() {
         return super.findAll();
     }
 
@@ -20,17 +19,17 @@ public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetS
     }
 
     @Override
-    public void delete(Pet object) {
+    public void delete(Specialty object) {
         super.delete(object);
     }
 
     @Override
-    public Pet save(Pet object) {
+    public Specialty save(Specialty object) {
         return super.save(object);
     }
 
     @Override
-    public Pet findById(Long id) {
+    public Specialty findById(Long id) {
         return super.findById(id);
     }
 }
