@@ -2,10 +2,13 @@ package hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.services.
 
 import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.model.Specialty;
 import hellspawn287.springpetclinicsampleapp.springpetclinicsampleapp.services.SpecialtyService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
+
 @Service
+@Profile({"default", "map"})
 public class SpecialityMapService extends AbstractMapService<Specialty, Long> implements SpecialtyService {
 
     @Override
